@@ -1,0 +1,695 @@
+/* =============================
+    common css
+============================  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+:root {
+    --button-color: #FCD980;
+    --text-color: #2405F2;
+    --bg-color: #1C1E53;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ==============================
+       common css
+============================== */
+/* ==============================
+       menupart start
+============================== */
+#menuPart {
+    padding: 32px 0;
+    background-color: #1C1E53;
+}
+
+.menuItem {
+    display: flex;
+}
+
+.menuItemDiv {
+    display: flex;
+    align-items: center;
+    padding-left: 452px;
+    padding-right: 48px;
+    column-gap: 32px;
+}
+
+.menuItemDiv__put a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn button {
+    padding: 16px 48px;
+    background: transparent;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    background-color: green;
+}
+
+/* ==============================
+       menupart start
+============================== */
+/* ==============================
+       bannerPart start
+============================== */
+#BannerPart {
+    padding: 126px 0;
+    background-color: #1C1E53;
+}
+
+.bannerBox {
+    display: flex;
+    align-items: center;
+}
+
+.boxRight__title {
+    font-size: 54px;
+    font-weight: 600;
+    padding-right: 30px;
+    color: #fff;
+    max-width: 582px;
+}
+
+.boxRight__summary {
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 562px;
+    color: #fff;
+    padding: 22px 0 48px;
+}
+
+.buttonIcon {
+    display: flex;
+}
+
+.buttonIcon__icon {
+    margin-right: 30px;
+}
+
+.buttonIcon a {
+    padding: 16px 56px;
+    border: 2px solid green;
+    border-radius: 41px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.buttonIcon a:hover {
+    background-color: #FCD980;
+    opacity: 1;
+}
+
+
+
+/* ==============================
+       bannerPart start
+============================== */
+
+
+/* ==============================
+       project part start
+============================== */
+#projectPart {
+    margin: 128px 0;
+}
+
+.item__title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.projectLink {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+}
+
+.projectLink i {
+    padding-left: 5px;
+}
+
+.demoTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectBox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.itemBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -60%;
+    height: 100%;
+    width: 50%;
+    background-color: #1C1E536B;
+    transition: 0.5s;
+}
+
+.itemBox:hover .overlay {
+    left: 0;
+}
+
+.overlayContent {
+    position: relative;
+    left: 29px;
+    bottom: -69%;
+}
+
+.raap--link {
+    color: #FCD980;
+}
+
+.content__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    width: 313px;
+}
+
+.content__summarty {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    width: 293px;
+    margin: 5px 0;
+}
+
+.rightBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.demo--item {
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1C1E536B;
+    transition: 0.5s;
+}
+
+.rightBox:hover .demo--item {
+    top: 0;
+}
+
+/* ==============================
+       project part end
+============================== */
+
+/* ==============================
+       blog part start
+============================== */
+
+#BlogPart {
+    padding: 100px 0;
+}
+
+.blogBox {
+    width: 405px;
+}
+
+.blogTop__top {
+    font-size: 48px;
+    font-weight: 600;
+    color: #222;
+    padding-bottom: 30px;
+}
+
+.box__soto {
+    font-size: 16px;
+    font-weight: 500;
+    width: 93px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.box__shadow {
+    font-size: 24px;
+    font-weight: 500;
+    width: 405px;
+    padding-bottom: 16px;
+}
+
+.p__item {
+    font-size: 16px;
+    font-weight: 400;
+    width: 405px;
+}
+
+.read__icon {
+    color: red;
+    padding-top: 20px;
+}
+
+.read__icon i {
+    padding-left: 10px;
+}
+
+.itemBlog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+/* ==============================
+      blog part end
+============================== */
+/* ==============================
+     team part start
+============================== */
+#teamPart {
+    padding: 100px 0;
+}
+
+.teamBox__top {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.imgDiv {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.hover {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 170px;
+    width: 170px;
+    background-color: #654FFA;
+    opacity: 50%;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.imgDiv:hover .hover {
+    top: 0;
+}
+
+.hoverItem {
+    position: relative;
+    top: 111px;
+    left: 1px;
+    text-align: center;
+}
+
+.hoverItem a i {
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.textItem__title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.textItem__sum {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ourPart {
+    position: relative;
+}
+
+.textItem {
+    position: absolute;
+    top: 174px;
+    left: 18px;
+}
+
+.hoverBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ==============================
+      team part end
+============================== */
+
+
+/* ==============================
+       faqpart start
+============================== */
+#faqPart {
+    padding: 128px 0px;
+}
+
+.faqBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqBox__right {
+    max-width: 846px;
+}
+
+.faqBox__left {
+    width: 328px;
+}
+
+.boxLeft__title {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.boxLeft__summary {
+    font-size: 18px;
+    font-weight: 500;
+}
+.faqBox__right{
+    width: 843px;
+}
+.span__item{
+    font-size: 24px;
+    font-weight: 500;
+    color: #2405F2;
+    padding-right: 59px;
+}
+.much__item{
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 364px;
+}
+.askItem{
+    display: flex;
+    align-items: center;
+}
+.pitter__item {
+    padding: 20px 84px;
+}
+.faqBox__right ul li{
+    padding-bottom: 80px;
+}
+.revision--item{
+    position: relative;
+}
+.revision--item::before {
+    position: absolute;
+    content: "";
+    top: -35px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #222;
+    opacity: 20%;
+}
+.much__item :last-child .last{
+   text-align: end;
+}
+/* ==============================
+        faqpart end
+============================== */
+/* ==============================
+        fast part start
+============================== */
+  #fastProject{
+    padding: 100px 0;
+  }
+  .fastPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about__title{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .our__part{
+    font-size: 38px;
+    font-weight: 600;
+    width: 624px;
+    padding: 10px 0;
+  }
+  .dolor__part{
+    font-size: 16px;
+    font-weight: 400;
+    width: 622px;
+  }
+.left--modi{
+    padding-top: 50px;
+}
+/* ==============================
+        fast part end
+============================== */
+/* ==============================
+      sol box start
+============================== */
+#solPart {
+    padding: 100px 0;
+}
+
+.solBox__item {
+    display: flex;
+    align-items: center;
+}
+
+.solBox__item {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+
+.solBox__portFolio {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.solBox__create {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 733px;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.icon__team a{
+    border: #1C1E53;
+}
+.icon__team a i{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+    font-size: 30px;
+    padding: 0 20px;
+}
+/* ==============================
+      sol box end
+============================== */
+
+/* ==============================
+     around part start
+============================== */
+#aroundDiv{
+    padding: 100px 0;
+}
+.ulItem{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    padding-bottom: 50px;
+}
+.ulItem__li{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.piImg{
+    width: 623px;
+    height: 380px;
+}
+.temp__title{
+    font-size: 38px;
+    font-weight: 600;
+}
+.temp__summary{
+    font-size: 16px;
+    font-weight: 400;
+    width: 623px;
+}
+.divBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+/* ==============================
+    around part end
+============================== */
+
+
+/* ==============================
+       footerpart start
+============================== */
+#footerPart {
+    margin: 100px 0px 0px;
+    background-color: #1C1E53;
+}
+
+.footerTop__summary {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 64px;
+    margin: 22px 0 86px;
+    color: #fff;
+}
+
+.foooterTop__left {
+    width: 517px;
+}
+
+.footerTop {
+    display: flex;
+    column-gap: 142px;
+    padding: 100px 0px 0px;
+}
+
+.information {
+    display: flex;
+    padding: 17px 100px 16px 37px;
+    justify-content: space-between;
+    background-color: var(--button-color);
+}
+
+.information__left {
+    padding-right: 20px;
+}
+
+.foooterTop__raw {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.foooterTop__details {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 14px 0 28px;
+    padding-right: 221px;
+    color: #fff;
+}
+
+.icon a {
+    padding-right: 26px;
+}
+
+.icon a i {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+a i[class="fa-brands fa-facebook"]:hover {
+    background-color: rgb(72, 168, 72);
+    color: #fff;
+}
+
+a i[class="fa-brands fa-twitter"]:hover {
+    background-color: rgb(72, 168, 72);
+    color: #fff;
+}
+
+a i[class="fa-brands fa-instagram"]:hover {
+    background-color: rgb(72, 168, 72);
+    color: #fff;
+}
+
+a i[class="fa-brands fa-linkedin"]:hover {
+    background-color: rgb(72, 168, 72);
+    color: #fff;
+}
+
+.footerLast {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLast__right {
+    display: flex;
+    padding-right: 50px;
+}
+
+.footerLast__right li {
+    padding: 0px 32px;
+}
+
+/* ==============================
+       footerpart end
+============================== */
